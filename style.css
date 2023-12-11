@@ -110,21 +110,21 @@ small {
 }
 
 li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: var(--blue);
     border: 1px solid var(--pale-blue);
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
+    font-size: smaller;
 }
 
-li:hover,
-li:active {
-    color: white;
+li:hover {
     background-color: var(--blue);
+    color: white;
     cursor: pointer;
     transition: 0.7s;
 }
